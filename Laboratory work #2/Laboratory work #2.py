@@ -5,7 +5,7 @@ from scipy import optimize
 import numdifftools as nd
 import OneDimensionOptimization as ODO
 
-# needed for NR and FR, don't know why
+# needed for NR and FR, holds coordinates of points been analyzed
 Path = []
 # Number of dimensions in functions
 dimensionsInFunctions = [2, 2, 4, 4]
